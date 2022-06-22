@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jaguarshark-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jaguarshark/JaguarsharkWebPart.js",
+          "manifest": "./src/webparts/jaguarshark/JaguarsharkWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "JaguarsharkWebPartStrings": "lib/webparts/jaguarshark/loc/{locale}.js"
+  }
+}

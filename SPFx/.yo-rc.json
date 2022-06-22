@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "JaguarShark",
+    "environment": "spo",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "jaguarshark",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "jaguar-shark",
+    "libraryId": "1e489f17-31e6-46f0-a559-ec0b073d23e0",
+    "packageManager": "npm",
+    "solutionShortDescription": "JaguarShark description"
+  }
+}

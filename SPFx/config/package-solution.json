@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "jaguar-shark-client-side-solution",
+    "id": "1e489f17-31e6-46f0-a559-ec0b073d23e0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "JaguarShark description"
+      },
+      "longDescription": {
+        "default": "JaguarShark description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "jaguar-shark Feature",
+        "description": "The feature that activates elements of the jaguar-shark solution.",
+        "id": "31a828b9-a82d-4440-8028-b4d159dd4cef",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/jaguar-shark.sppkg"
+  }
+}
